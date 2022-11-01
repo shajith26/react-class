@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .flex-banner{
+    display: flex;
+    /* justify-content: space-between; */
+  }
+  .first-list{
+    width: 33%;
+    height: 600px;
+    overflow-y: scroll;
+    background-color: #f0f0f5;
+  }
+  .features{
+    display:flex;
+    padding: 10px;
+  }
+  .features h2{
+    font-size: 25px;
+    margin-right: 5px;
+    margin-top: 5px;
+  }
+  .features h5{
+    font-size: 20px;
+    padding: 5px 0px 5px 0px;
+  }
+  .feed{
+    width: 33%;
+    height: 600px;
+    overflow-y: scroll;
+    background-color: #f0f0f5;
+  }
+  .whats-up{
+    background-color: #fff;
+  }
+  .input{
+    padding: 10px 10px 10px 10px;
+  }
+  .input p{
+    background-color: #f0f0f5;
+      border-radius: 11px;
+      text-align: center;
+      padding: 5px;
+  }
+  .upload{
+    display: flex;
+    justify-content: space-between;
+  }
+  .upload div{
+    padding: 10px 10px 10px 10px;
+  }
+  .feed-img{
+    margin-top: 5px;
+    background-color: #fff;
+  }
+  .profile-1{
+    display: flex;
+    justify-content: space-between;
+  }
+  .profile-1 p{
+    font-size: 10px;  
+    padding: 5px;
+    line-height: 20px;
+  }
+  .tag{
+    padding: 10px;
+  }
+  .like-1 button{
+    background-color: #fff;
+      width: 30.5%;
+      border: solid 1px grey;
+      padding: 3px;
+      margin: 5px;
+  }
+  .like-1 button span{
+    margin-right: 6px;
+  }
+  .naruto{
+    width: 97%;
+    margin: 5px 5px 5px 5px;
+  }
+  .chat{
+    width: 33%;
+    height: 600px;
+    overflow-y: scroll;
+    background-color: #f0f0f5;
+  }
+  .chat h4{
+    text-align: center;
+      font-size: 20px;
+  }
+  .chat-1{
+    background-color: white;
+      padding: 10px 10px 10px 15px;
+      border-radius: 25px;
+      margin: 5px 5px 5px 5px;
+  }
